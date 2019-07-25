@@ -402,12 +402,10 @@
    .content-about p {
       font-size: 12px;
    }
-   .social img { 
-      width: 15%;
-   }
-   .social a {
-      margin: 15px -50px;
-   }
+   .social img {
+      height: 20px;
+      margin: 10px 8px;
+   } 
 }
 
 
@@ -475,6 +473,9 @@
    footer {
       margin: 200px 0 20px 0;
    }
+   .social img {
+      height: 18px;
+   }
 }
  
 
@@ -530,7 +531,7 @@
    footer {
       margin: 150px 0 20px 0;
    }
-   .social a {
-      margin: 15px -50px;
-   }
+   .social img {
+      margin: 10px 5px;
+   } 
 }  

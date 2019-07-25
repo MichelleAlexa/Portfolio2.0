@@ -568,12 +568,12 @@ footer {
 
 .social a {
    display: inline-block;
-   margin: 15px -42px;
    /* border: 1px solid pink; */
 }
 
 .social img {
-   width: 20%;
+   height: 25px;
+   margin: 10px;
 }
 
 footer p {
