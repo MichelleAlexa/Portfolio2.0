@@ -1,0 +1,536 @@
+/*-----Responsive-----*/
+@media only screen and (max-width: 1366px){
+   .wrapper {
+      width: 90%;
+   }
+   nav {
+      margin-top: -2rem;
+   }
+   .logo {
+      top: -5px;
+      left: 60px;
+   }
+   header{
+      max-width:2000px;
+   }
+   .animoji {
+   max-width: 45%;
+   }
+   .skills {
+   height: 800px;
+   width: 80%;
+   }
+   .gridSkills .col {
+   width: 40%;
+   margin: 0 auto 60px;
+   }
+   .gridSkills .col img {
+      width: 25%;
+   }
+   .gridSkills .col p {
+   letter-spacing: 1px;
+   margin: 3% auto;
+   width: 68%;
+   }
+   .projectInfo {
+   margin: 100px auto;
+   width: 80%;
+   height: 810px;
+   }
+   .projectLogo {
+      margin: 150px auto;
+    }
+   .content-resume  {
+      bottom: 80px;
+   }
+   .btn-resume {
+      top: 480px;
+      left: 160px;
+      width: 100px;
+   }
+   .content-about {
+      bottom: 40px;
+   }
+}
+
+
+@media only screen and (max-width: 1280px){
+   header {
+      width: 90%;
+   }
+   header h1 {
+      width: 60%;
+   }
+   .skills {
+      height: 780px;
+   }
+   .gridSkills .col img {
+      width: 30%;
+   }
+   .work .col {
+      width: 50%;
+   }
+   .content-resume {
+      left: 50%;
+      bottom: 140px;
+   }
+   .content-resume p {
+      font-size: 16px;
+      text-align: left;
+   }
+   .btn-resume {
+      top: 420px;
+   }
+   .projectInfo {
+      height: 800px;
+   }
+   .content-about{
+      margin: 5% auto;
+   }
+   .content-about p {
+      font-size: 14px;
+   }
+   .overview p {
+      font-size: 16px;
+   }
+   .btn-project {
+      margin-top: 5%;
+   }
+   .vid {
+      margin-top: 68px;
+   }
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+   .logo {
+      top: 8px;
+      left: 0;
+   }
+   .skills {
+      height: 720px;
+   }
+   .work {
+      margin: 250px auto;
+   }
+   .content-resume {
+      left: 40%;
+   }
+   .content-resume p {
+      font-size: 14px;
+      margin-bottom: 10%;
+   }
+   .projectInfo {
+      height: 750px;
+      width: 90%;
+   }
+   .needs {
+      font-size: 14px;
+   }
+   .overview p {
+      font-size: 14px;
+   }
+   .vid{
+      margin-top: 54px;
+      padding: 12px 32px;
+   }
+   .btn-resume {
+      font-size: 16px;
+      left: 100px;
+      padding: 12px 25px;
+   }
+   footer {
+      margin-top: 520px;
+      clear: both;
+   }
+}
+
+
+@media only screen and (max-width: 834px) {
+   header {
+      margin: 120px auto;
+      height: 480px;
+   }
+   header h1 {
+      width: 50%;
+   }
+   .skills {
+      height: 780px;
+      width: 100%;
+   }
+   .gridSkills {
+      margin: 20px auto;
+   }
+   .gridSkills .col {
+      margin: 30px auto;
+   }
+   .gridSkills .col img {
+      width: 32%;
+   }
+   .gridSkills .col p {
+      width: 60%;
+   }
+   .content-resume {
+      width: 50%;
+      left: 40%;
+      bottom: 140px;
+      bottom: 90px;
+   }
+   .content-resume p {
+      font-size: 16px;
+      text-align: left;
+   }
+   .btn-resume {
+      left: 60px;
+      top: 480px;
+   }
+    .needs p {
+       font-size: 16px;
+    }
+    .projectInfo {
+       width: 100%;
+       height: 810px;
+    }
+    .vid {
+      margin-top: 45px;
+    }
+   .me {
+      top: 140px;
+      width: 45%;
+   }
+   .content-about {
+      top: 110px;
+   }
+   .content-about p {
+      text-align: left;
+   }
+   footer {
+      margin-top: 300px;
+   }
+}
+
+
+@media only screen and (max-width: 768px) {
+   header {
+      margin-top: 80px;
+   }
+   header h1 {
+      width: 100%;
+   }
+   .mobile ul {
+      margin: 90px -62px;
+      height: 220px;
+      width: 160px;
+   }
+   .logo {
+      top: 12px;
+   }
+   .desktop {
+      display: none;
+  }
+   .mobile {
+      display: block;
+  }
+   .animoji {
+      visibility: hidden;
+   }
+   .title img{
+      width: 90%;
+   }
+   .skills {
+      width: 100%;
+   }
+   .gridSkills{
+      height: 550px;
+   }
+   .gridSkills .col {
+      margin: 0 auto 70px;
+   }
+   .gridSkills .col img {
+      width: 30%;
+   }
+   .gridSkills .col p {
+      width: 80%;
+      font-size: 14px;
+      margin: 5% auto;  
+   }
+   .work .col {
+      width: 50%;
+   }
+   .work .col img {
+      margin: 1%;
+      width: 90%;
+   }
+   .content-resume {
+      bottom: 110px;
+   }
+   .content-resume p {
+      font-size: 14px;
+   }
+   .btn-resume {
+      left: 0;
+      top: 450px;
+      font-size: 14px;
+   }
+   .me {
+      width: 80%;
+      top: 180px;
+      left: 50px;
+   }
+   .about {
+      text-align: left;
+      height: 1200px;
+   }
+   .about .title {
+      position: absolute;
+   }
+   .content-about {
+      width: 80%;
+      left: 50px;
+      top: 640px; 
+   }
+   .content-about p {
+      font-size: 16px;
+   }
+   .projectInfo {
+      height: 950px;
+      width: 100%;
+   }
+   .needs {
+      width: 100%;
+      margin-bottom: 15%;
+   }
+   .projectLogo {
+      width: 100%;
+   }
+   .overview {
+      width: 100%;
+   }
+   .btn-project, .btn-video {
+     font-size: 14px; 
+   }
+   .vid{
+      padding: 12px 25px;
+      margin-top: 40px;
+   }
+   .social img { 
+      width: 20%;
+   }
+   footer {
+      margin: 220px 0 20px 0;
+   }
+}
+
+
+@media only screen and (max-width: 414px) {
+   .logo {
+      top: 12px;
+      left: 0;
+   }
+   .mobile{
+      height: 90px;
+      top: 12px;
+   }
+   .mobile ul {
+      margin: 90px -30px;
+      height: 250px;
+   }
+   header h1 {
+      margin-top: 80px;
+   }
+   .skills {
+      height: 1250px;
+   }
+   .gridSkills {
+      height: fit-content;
+   }
+   .gridSkills .col {
+      width: 60%;
+   }
+   .gridSkills .col img {
+      width: 40%;
+   }
+   .gridSkills p {
+      display: none;
+   }
+   .listSkills {
+      display: block;
+   }
+   .work .col {
+      width: 100%;
+   }
+   .content-resume {
+      width: 80%;
+      left: 35%;
+      bottom: 160px;
+   }
+   .content-resume p {
+      font-size: 14px;
+   }
+   .btn-resume {
+      left: -80px;
+      top: 400px;
+      width: 40%;
+   }
+   .projectInfo {
+      height: 1100px;
+      margin-top: 10px;
+   }
+   .description {
+      padding: 40px;
+   }
+   .vid {
+      margin-top: 100px;
+      margin-left: -5px;  
+      padding: 14px 25px;
+      font-size: 12px;
+   }
+   .me {
+      top: 100px;
+      left: 10%;
+   }
+   .about {
+      height: 800px;
+      width: 90%;
+      margin-top: 140px;
+   }
+   .content-about {
+      top: 380px;
+      left: 40px;
+   }
+   .content-about p {
+      font-size: 12px;
+   }
+   .social img { 
+      width: 15%;
+   }
+   .social a {
+      margin: 15px -50px;
+   }
+}
+
+
+@media only screen and (max-width: 375px) {
+   span {
+      font-size: 40px;
+   }
+   .work {
+      margin-top: 200px;
+      width: 90%;
+   }
+   .work .title img {
+      width: 100%;
+   }
+   .work .col {
+      width: 100%;
+   }
+   .projectInfo {
+      height: 980px;
+   }
+   .projectInfo p {
+      font-size: 12px;
+   }
+   .projectInfo h2 {
+      font-size: 20px;
+   }
+   .special{
+      font-size: 16px;
+   }
+   .btn-project {
+      padding: 12px 25px;
+      font-size: 12px;
+   }
+   .vid {
+      margin-top: 80px;
+      padding: 10px 20px;
+      margin-left: -5px;  
+   }
+   .content-resume {
+      left: 22%;
+      bottom: 200px;
+   }
+   .content-resume p {
+      font-size: 12px;
+   }
+   .btn-resume {
+      top: 360px;
+      left: -60px;
+      padding: 10px 25px;
+      font-size: 12px;
+   }
+   .about {
+      height: 800px;
+      width: 100%;
+      margin-top: 90px;
+   }
+   .me {
+      top: 130px;
+      left: 10%;
+   }
+   .content-about {
+      top: 400px;
+      left: 35px;
+   }
+   footer {
+      margin: 200px 0 20px 0;
+   }
+}
+ 
+
+@media only screen and (max-width: 320px){
+   header {
+      margin-top: 80px;
+   }
+   header h1 {
+      font-size: 35px;
+   }
+   span {
+      font-size: 32px;
+   }
+   .mobile ul {
+      margin: 90px -20px;
+      height: 220px;
+   }
+   .skills {
+      height: 1200px;
+   }
+   .skills .col img {
+      width: 45%;
+   }
+   .work .col img {
+      width: 100%;
+      margin: 5% auto;
+   }
+   .projectInfo {
+      height: 1000px;
+   }
+   .content-resume {
+      bottom: 220px;
+   }
+   .content-resume p {
+      font-size: 11px;
+   }
+   .btn-resume {
+      top: 350px;
+      font-size: 11px;
+      padding: 10px 20px;
+   }
+   .vid {
+      left: 70px;  
+   }
+   .about {
+      height: 840px;
+      margin-top: 70px;
+   }
+   .content-about {
+      width: 80%;
+      top: 380px;
+   }
+   footer {
+      margin: 150px 0 20px 0;
+   }
+   .social a {
+      margin: 15px -50px;
+   }
+}  
