@@ -367,6 +367,11 @@ header ul li {
 
 .overlay h4 { margin-bottom: 20px;}
 
+.status:hover img{
+   -webkit-filter: grayscale(80%); /* Safari 6.0 - 9.0 */
+   filter: grayscale(80%);
+   filter: blur(3px);
+}
 
 /*-----Project - Beasts + Heroes-----*/
 .beasts, .dutchBros, .baskerville {
