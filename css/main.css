@@ -345,6 +345,29 @@ header ul li {
    opacity: 0.9;
 }
 
+.grow:active{
+   transition: 1s ease-in-out;
+}
+
+.grow:hover{
+   -webkit-transform: scale(1.05);
+   -ms-transform: scale(1.05);
+   transform: scale(1.05);
+   transition: 1s ease-in-out;
+}
+
+.grow:hover .overlay{display: block;}
+
+.overlay {
+   width: 80%;
+   margin: 1% auto;
+   text-align: center;
+   display: none;
+}
+
+.overlay h4 { margin-bottom: 20px;}
+
+
 /*-----Project - Beasts + Heroes-----*/
 .beasts, .dutchBros, .baskerville {
    /* border: 1px solid green; */
@@ -367,6 +390,7 @@ header ul li {
 .projectInfo {
    width: 70%;
    height: 860px;
+   min-height: 600px;
    margin: 200px auto;
    background-color: #FFFFFF;
    border-radius: 10px;
@@ -420,26 +444,10 @@ header ul li {
 }
 
 .btn-project {
-   background-color: #EF4B6C;
+   background: rgba(250, 250, 250);
+   background: linear-gradient(270deg, rgba(250, 250, 250, 1) 0%, rgba(239,75,108,1) 100%);
    color: #FFFFFF;
-   border-radius: 50px;
-   padding: 15px 32px;
-   text-decoration: none;
-   text-align: center;
-   text-transform: uppercase;
-   cursor: pointer;
-   position: absolute;
-}
-
-.btn-project:hover {
-   background-color: #FFFFFF;
-   border: 2px solid #EF4B6C;
-   color: #EF4B6C;
-}
-
-.btn-video {
-   border: 2px solid #707070;
-   color: #707070;
+   border: none;
    border-radius: 50px;
    padding: 12px 32px;
    text-decoration: none;
@@ -449,14 +457,32 @@ header ul li {
    position: absolute;
 }
 
-.vid {
-   margin-left: 180px;
-   margin-top: 3px;
+.btn-project:hover {
+   background: rgba(250, 250, 250);
+   border: 2px solid #EF4B6C;
+   color: #EF4B6C;
+   transition: .3s ease-in;
 }
 
-.vid:hover {
-   background-color: #707070;
+.btn-vid {
+   border: 2px solid #D0CCD0;
+   color: #D0CCD0;
+   border-radius: 50px;
+   padding: 12px 32px;
+   text-decoration: none;
+   text-align: center;
+   text-transform: uppercase;
+   cursor: pointer;
+   position: absolute;
+   margin-top: 120px;
+}
+
+.btn-vid:hover {
+   background: rgb(250,250,250);
+   background: linear-gradient(90deg, rgba(250,250,250,1) 0%, rgba(208,204,208,1) 100%);
    color: #FFFFFF;
+   border: none;
+   transition: .3s ease-in;
 }
 
 .assets {
@@ -501,12 +527,12 @@ header ul li {
 
 .btn-resume {
    display: inline-block;
-   background-color: #FFFFFF;
-   border: 2px solid #EF4B6C;
+   background: rgba(250, 250, 250);
+   background: linear-gradient(270deg, rgba(250, 250, 250, 1) 0%, rgba(239,75,108,1) 100%);
+   color: #FFFFFF;
    border-radius: 50px;
    padding: 15px 32px;
    text-decoration: none;
-   color: #EF4B6C;
    text-align: center;
    margin: 70px;
    text-transform: uppercase;
@@ -519,8 +545,10 @@ header ul li {
 }
 
 .btn-resume:hover {
-   background-color: #EF4B6C;
-   color: #FFFFFF;
+   background: rgba(250, 250, 250);
+   border: 2px solid #EF4B6C;
+   color: #EF4B6C;
+   transition: .3s ease-in;
 }
 
 
