@@ -181,17 +181,17 @@
    }
    .about {
       text-align: left;
-      height: 1200px;
+      height: 1100px;
    }
    .about .title {position: absolute;}
    .content-about {
       width: 80%;
       left: 50px;
-      top: 540px; 
+      top: 600px; 
    }
    .content-about p {font-size: 16px;}
    .projectInfo {
-      height: 950px;
+      height: 1050px;
       width: 100%;
    }
    .needs {
@@ -243,16 +243,20 @@
       top: 400px;
       width: 40%;
    }
-   .projectLogo {width: 100%;}
-   .projectInfo {
-      height: 900px;
+   .projectLogo {
+      width: 100%;
+      margin-top: 100px;
+      margin-bottom: 50px;
+   }
+   .projectInfo { 
       margin-top: 10px;
+      height: 1150px;
    }
    .btn-project, .btn-vid {
       padding: 10px 25px;
       font-size: 12px;
    }
-   .description {padding: 40px;}
+   .description {padding: 30px;}
    .me {
       top: 100px;
       left: 10%;
@@ -284,9 +288,10 @@
    }
    .work .title img {width: 100%;}
    .work .col {width: 100%;}
+   .projectInfo { height: 1000px;}
    .projectInfo p {font-size: 12px;}
    .projectInfo h2 {font-size: 20px;}
-   .overview p {font-size: 10px;}
+   .overview p {font-size: 12px;}
    .special{font-size: 16px;}
    .resume {margin: 50px auto;}
    .content-resume {
