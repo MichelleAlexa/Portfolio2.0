@@ -229,6 +229,7 @@
    .gridSkills p {display: none;}
    .listSkills {display: block;}
    .work .col {width: 100%;}
+   .work .col img {width: 100%;}
    .overlay h2 {font-size: 18px;}
    .overlay h4, 
    .projectInfo h4 {font-size: 12px;}

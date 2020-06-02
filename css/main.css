@@ -348,18 +348,19 @@ header ul li {
    opacity: 0.9;
 }
 
-.grow:active{
+.thumbnail { display: block;}
+
+/*----- Overlay Effect -----*/
+/* .grow:active{
    transition: 1s ease-in-out;
 }
-
 .grow:hover{
    -webkit-transform: scale(1.05);
    -ms-transform: scale(1.05);
    transform: scale(1.05);
    transition: 1s ease-in-out;
 }
-
-.grow:hover .overlay{display: block;}
+.grow:hover .overlay{display: none;} */
 
 .overlay {
    width: 80%;
@@ -433,8 +434,6 @@ header ul li {
    color: #EF4B6C;
    text-decoration: none;
 }
-
-/* .thumbnail {} */
 
 .overview {
    /* border: 1px solid red;  */
