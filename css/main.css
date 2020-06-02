@@ -47,6 +47,7 @@ h2 {
 h3 {
    font-family: "Raleway", sans-serif;
    color:#212529;
+   font-size: 20px;
 }
 
 h4 {
@@ -128,6 +129,7 @@ nav a {
    transform: scale(1, 0);
    transform-origin: top;
    transition: transform 400ms ease-in-out;
+   font-size: 15px;
 }
 
 nav a:hover {
@@ -248,7 +250,7 @@ header ul li {
 /*-----skills-----*/
 .skills {
    width: 70%;
-   height: 1000px;
+   height: 1100px;
    margin: 3% auto;
    background-color: #FFFFFF;
    border-radius: 10px;
@@ -299,6 +301,7 @@ header ul li {
    letter-spacing: 1px;
    margin: 3% auto;
    width: 45%;
+   font-size: 1em;
 }
 
 .listSkills {
@@ -374,7 +377,7 @@ header ul li {
 }
 
 /*-----Project - Beasts + Heroes-----*/
-.beasts, .dutchBros, .baskerville {
+.beasts, .dutchBros, .velvet {
    /* border: 1px solid green; */
    margin: 40px auto;
 }
@@ -385,11 +388,10 @@ header ul li {
    margin-left: auto;
    margin-right: auto;
    margin-top: 150px;
-   /* border: 1px solid yellow; */
+   /* border: 1px solid yellowgreen; */
 }
-
-.baskerville .projectLogo {
-   width: 60%;
+.cut {
+   margin-bottom: -5em;
 }
 
 .projectInfo {
@@ -430,6 +432,8 @@ header ul li {
    color: #EF4B6C;
    text-decoration: none;
 }
+
+/* .thumbnail {} */
 
 .overview {
    /* border: 1px solid red;  */
@@ -479,7 +483,7 @@ header ul li {
    text-transform: uppercase;
    cursor: pointer;
    position: absolute;
-   margin-top: 120px;
+   margin-top: 60px;
 }
 
 .btn-vid:hover {

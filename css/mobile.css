@@ -9,7 +9,7 @@
    header{max-width:2000px;}
    .animoji {max-width: 40%;}
    .skills {
-   height: 800px;
+   height: 900px;
    width: 80%;
    }
    .gridSkills .col {
@@ -27,7 +27,8 @@
    width: 80%;
    height: 810px;
    }
-   .projectLogo {margin: 150px auto;}
+   /* .projectLogo {margin: 150px auto;} */
+   .col h2 { font-size: 25px;}
    .content-resume  {bottom: 80px;}
    .btn-resume {
       top: 480px;
@@ -41,7 +42,7 @@
 @media only screen and (max-width: 1280px){
    header {width: 90%;}
    header h1 {width: 60%;}
-   .skills {height: 780px;}
+   /* .skills {height: 780px;} */
    .gridSkills .col img {width: 30%;}
    .work .col {width: 50%;}
    .content-resume {
@@ -149,7 +150,10 @@
    .mobile {display: block;}
    .animoji {visibility: hidden;}
    .title img{width: 90%;}
-   .skills {width: 100%;}
+   .skills {
+      width: 100%;
+      height: 800px;
+   }
    .gridSkills{height: 550px;}
    .gridSkills .col {margin: 0 auto 70px;}
    .gridSkills .col img {width: 30%;}
@@ -216,7 +220,9 @@
       height: 250px;
    }
    header h1 {margin-top: 80px;}
-   .skills {height: 1250px;}
+   .title img{width: 100%;}
+   .resume .title img {width: 90%;}
+   .skills {height: 1350px;}
    .gridSkills {height: fit-content;}
    .gridSkills .col {width: 60%;}
    .gridSkills .col img {width: 40%;}
@@ -228,12 +234,12 @@
    .projectInfo h4 {font-size: 12px;}
    .content-resume {
       width: 80%;
-      left: 35%;
-      bottom: 160px;
+      left: 20%;
+      bottom: 180px;
    }
    .content-resume p {font-size: 14px;}
    .btn-resume {
-      left: -80px;
+      left: -50px;
       top: 400px;
       width: 40%;
    }
@@ -265,13 +271,15 @@
       height: 20px;
       margin: 10px 8px;
    } 
+   footer { margin: 0 0 20px 0;}
 }
 
 
 @media only screen and (max-width: 375px) {
    span {font-size: 40px;}
+   .skills {height: 1300px;}
    .work {
-      margin-top: 200px;
+      margin: 200px auto;
       width: 90%;
    }
    .work .title img {width: 100%;}
@@ -280,16 +288,16 @@
    .projectInfo h2 {font-size: 20px;}
    .overview p {font-size: 10px;}
    .special{font-size: 16px;}
+   .resume {margin: 50px auto;}
    .content-resume {
       left: 22%;
-      bottom: 200px;
+      bottom: 240px;
    }
    .content-resume p {
       font-size: 12px;
    }
    .btn-resume {
-      top: 360px;
-      left: -60px;
+      top: 340px;
       padding: 10px 25px;
       font-size: 12px;
    }
@@ -306,7 +314,6 @@
       top: 400px;
       left: 35px;
    }
-   footer { margin: 200px 0 20px 0;}
    .social img {height: 18px;}
 }
  
