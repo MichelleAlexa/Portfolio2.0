@@ -328,7 +328,7 @@ header ul li {
 .gridWork, .gridAssets { 
    display: flex;
    flex-wrap: wrap;
-   width: 90%;
+   width: 100%;
    margin: 50px auto;
    /* border: 1px solid gainsboro; */
 }
@@ -341,7 +341,7 @@ header ul li {
 .col img {
    width: 90%;
    margin: 3% auto;
-   border-radius: 5px;
+   border-radius: 15px;
 }
 
 .col img:hover {

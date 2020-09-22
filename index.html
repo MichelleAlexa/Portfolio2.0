@@ -1,206 +1,215 @@
 <!DOCTYPE html>
 <html>
-	<head>
-      <!-- Meta tags -->
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="author" content="Portfolio">
-      <meta name="description" content="Portfolio Website">
-      
-      <title>Portfolio | Home</title>
-    
-      <!-- Stylesheets -->
-      <link rel="stylesheet" type="text/css" href="css/main.css">
-      <link rel="stylesheet" type="text/css" href="css/mobile.css">
 
-      <!-- Fonts -->
-      <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,600,700,800|Raleway:300,400,500,600" rel="stylesheet">
+<head>
+   <!-- Meta tags -->
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="author" content="Portfolio">
+   <meta name="description" content="Portfolio Website">
 
-      
-	</head>
+   <title>Portfolio | Home</title>
 
-	<body>
-		<div class="wrapper">
-			<nav class="clearfix">
+   <!-- Stylesheets -->
+   <link rel="stylesheet" type="text/css" href="css/main.css">
+   <link rel="stylesheet" type="text/css" href="css/mobile.css">
 
-            <ul class="desktop">
-               <a href="index.html"><img src="assets/mylogo.png" class="logo" alt="Michelle Alexa Logo"></a>
-               
+   <!-- Fonts -->
+   <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,600,700,800|Raleway:300,400,500,600"
+      rel="stylesheet">
+
+
+</head>
+
+<body>
+   <div class="wrapper">
+      <nav class="clearfix">
+
+         <ul class="desktop">
+            <a href="index.html"><img src="assets/mylogo.png" class="logo" alt="Michelle Alexa Logo"></a>
+
+            <li><a href="#">Home</a></li>
+            <li><a href="#work">Projects</a></li>
+            <li><a href="assets/michellealexaResume.pdf" target="_blank">Resume</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="mailto:michellealexa.dsgns@gmail.com" class="email" target="_blank">Reach Out</a></li>
+         </ul>
+
+         <div class="mobile">
+            <img src="assets/mylogo.png" class="logo" alt="Michelle Alexa Logo">
+            <label for="toggle">&#9776;</label>
+            <input type="checkbox" id="toggle" />
+            <ul>
                <li><a href="#">Home</a></li>
-               <li><a href="#work">Projects</a></li>  
-               <li><a href="assets/michellealexaResume.pdf" target="_blank">Resume</a></li>  
+               <li><a href="#work">Projects</a></li>
+               <li><a href="#resume">Resume</a></li>
                <li><a href="about.html">About</a></li>
                <li><a href="mailto:michellealexa.dsgns@gmail.com" class="email" target="_blank">Reach Out</a></li>
             </ul>
+         </div>
 
-            <div class="mobile">
-               <img src="assets/mylogo.png" class="logo" alt="Michelle Alexa Logo">
-               <label for="toggle">&#9776;</label>
-               <input type="checkbox" id="toggle" />
-                  <ul>
-                     <li><a href="#">Home</a></li>
-                     <li><a href="#work">Projects</a></li>  
-                     <li><a href="#resume">Resume</a></li>  
-                     <li><a href="about.html">About</a></li>
-                     <li><a href="mailto:michellealexa.dsgns@gmail.com" class="email" target="_blank">Reach Out</a></li>
-                  </ul>
+      </nav>
+
+      <header>
+         <h1>Hi, I'm <span>Michelle Alexa</span></h1>
+         <ul>
+            <li>Front-end Developer</li>
+            <li>Ux/Ui Designer</li>
+            <li>Creative</li>
+         </ul>
+
+         <img src="assets/animojiPeace.png" class="animoji" alt="animoji of Michelle Alexa">
+
+      </header> <!-- End of Header and Introduction  -->
+
+      <div class="skills" id="skills">
+         <div class="title">
+            <img src="assets/titles/skillsTitle.png" alt="Skills Title Section">
+
+         </div>
+
+         <div class="gridSkills">
+            <div class="col">
+               <img src="assets/icons/uxui.png" alt="ux ui explanation">
+
+               <h3>Ux/Ui</h3>
+               <p>Wireframing, Prototyping, User Flow, Landing Pages, Mobile App Design and Web Design</p>
+               <div class="listSkills">
+                  <li>Wireframing</li>
+                  <li>Prototyping</li>
+                  <li>User Flow</li>
+                  <li>Landing Pages</li>
+                  <li>Mobile App Design</li>
+                  <li>Web Design</li>
+               </div>
             </div>
-                  
-			</nav>
+            <div class="col">
+               <img src="assets/icons/webdev.png" alt="web development explanation">
 
-			<header>
-               <h1>Hi, I'm <span>Michelle Alexa</span></h1>
-               <ul>
-                  <li>Front-end Developer</li>
-                  <li>Ux/Ui Designer</li>
-                  <li>Creative</li>
-               </ul>
-            
-            <img src="assets/animojiPeace.png" class="animoji" alt="animoji of Michelle Alexa">
-            
-         </header>  <!-- End of Header and Introduction  -->
-         
-         <div class="skills" id="skills">
-            <div class="title">
-               <img src="assets/titles/skillsTitle.png" alt="Skills Title Section">
-              
+               <h3>Web Dev</h3>
+               <p>HTML5/CSS3, Javascript, and Responsive Web Design</p>
+               <div class="listSkills">
+                  <li>HTML5</li>
+                  <li>CSS3</li>
+                  <li>Javascript</li>
+                  <li>Responsive<br> web design</li>
+               </div>
             </div>
+            <div class="col">
+               <img src="assets/icons/motion.png" alt="ui motion explanation">
 
-               <div class="gridSkills">
-                  <div class="col">
-                     <img src="assets/icons/uxui.png" alt="ux ui explanation">
+               <h3>Motion</h3>
+               <p>Ui Animation and Prototyping</p>
+               <div class="listSkills">
+                  <li>Ui Animation</li>
+                  <li>Prototyping</li>
+               </div>
+            </div>
+            <div class="col">
+               <img src="assets/icons/tools.png" alt="tools used">
 
-                     <h3>Ux/Ui</h3>
-                     <p>Wireframing, Prototyping, User Flow, Landing Pages, Mobile App Design and Web Design</p>
-                     <div class="listSkills">
-                        <li>Wireframing</li>
-                        <li>Prototyping</li>
-                        <li>User Flow</li>
-                        <li>Landing Pages</li>
-                        <li>Mobile App Design</li>
-                        <li>Web Design</li>
-                     </div>
-                  </div>
-                  <div class="col">
-                     <img src="assets/icons/webdev.png" alt="web development explanation">
-
-                     <h3>Web Dev</h3>
-                     <p>HTML5/CSS3, Javascript, and Responsive Web Design</p>
-                     <div class="listSkills">
-                           <li>HTML5</li>
-                           <li>CSS3</li>
-                           <li>Javascript</li>
-                           <li>Responsive<br> web design</li>
-                        </div>
-                  </div>
-                  <div class="col">
-                        <img src="assets/icons/motion.png" alt="ui motion explanation">
-
-                     <h3>Motion</h3>
-                     <p>Ui Animation and Prototyping</p>
-                     <div class="listSkills">
-                           <li>Ui Animation</li>
-                           <li>Prototyping</li>
-                        </div>
-                  </div>
-                  <div class="col">
-                        <img src="assets/icons/tools.png" alt="tools used">
-
-                     <h3>Tools</h3>
-                     <p>Adobe XD, Illustrator, InDesign, Affinity Designer, VsCode, and Rotato</p>
-                     <div class="listSkills">
-                           <li>Adobe XD</li>
-                           <li>Illustrator</li>
-                           <li>InDesign</li>
-                           <li>Affinity<br>designer</li>
-                           <li>VsCode</li>
-                           <li>Rotato</li>
-                        </div>
-                  </div>
-
-               </div> <!-- End of GridSkills -->
-         </div> <!-- End of Skills section  -->
-
-			<div class="work" id="work">
-            <div class="title"> 
-               <img src="assets/titles/workTitle.png" alt="Work Title Section">
+               <h3>Tools</h3>
+               <p>Adobe XD, Illustrator, InDesign, Affinity Designer, VsCode, and Rotato</p>
+               <div class="listSkills">
+                  <li>Adobe XD</li>
+                  <li>Illustrator</li>
+                  <li>InDesign</li>
+                  <li>Affinity<br>designer</li>
+                  <li>VsCode</li>
+                  <li>Rotato</li>
+               </div>
             </div>
 
-            <div class="gridWork">
+         </div> <!-- End of GridSkills -->
+      </div> <!-- End of Skills section  -->
 
-               <div class="col grow">
-                  <a href="beasts_heroes.html"><img src="img/bnh/bhn_logo_dark.png" alt="project image"></a>
-                  <div class="overlay">
-                     <div class="overlay-text">
-                        <h2>Beasts + Heroes</h2>
-                        <h4>Web Design & Web Development</h4>
-                     </div>
-                  </div> <!-- End of Overlay-->
-                  <div class="thumbnail">
-                     <h2>Beasts + Heroes</h2>
-                     <h4>Web Design & Web Development</h4>
-                  </div>  <!-- End of Thumbnail-->
-               </div> <!-- End of Project-->
-               
-               <div class="col grow">
-                  <a href="dutch_bros.html"><img src="img/dutchbros/new@2x.png" alt="project image"></a>
-                  <div class="overlay">
-                     <div class="overlay-text">
-                        <h2>DutchBros App</h2>
-                        <h4>Ux/Ui Designer & Branding</h4>
-                     </div>
-                  </div> <!-- End of Overlay-->
-                  <div class="thumbnail">
-                     <h2>DutchBros App</h2>
-                     <h4>Ux/Ui Designer & Branding</h4>
-                  </div>  <!-- End of Thumbnail-->
-               </div> <!-- End of Project-->
+      <div class="work" id="work">
+         <div class="title">
+            <img src="assets/titles/workTitle.png" alt="Work Title Section">
+         </div>
 
-               <div class="col grow">
-                  <a href="velvet_beautybar.html"><img src="img/velvet/thumbnail.png" alt="project image"></a>
-                  <div class="overlay">
-                     <div class="overlay-text">
-                        <h2>Velvet Beauty Bar</h2>
-                        <h4>Web Design & Web Development</h4> 
-                     </div>
-                  </div> <!-- End of Overlay-->
-                  <div class="thumbnail">
+         <div class="gridWork">
+
+            <div class="col grow">
+               <a href="velvet_beautybar.html"><img src="img/velvet/thumbnail.png" alt="project image"></a>
+               <div class="overlay">
+                  <div class="overlay-text">
                      <h2>Velvet Beauty Bar</h2>
                      <h4>Web Design & Web Development</h4>
-                  </div>  <!-- End of Thumbnail-->
-               </div>
-               
-            </div> <!-- End of GridWork  -->
-         </div> <!-- End of Work section  -->
+                  </div>
+               </div> <!-- End of Overlay-->
+               <div class="thumbnail">
+                  <h2>Velvet Beauty Bar</h2>
+                  <h4>Web Design & Web Development</h4>
+               </div> <!-- End of Thumbnail-->
+            </div>
+
+            
+            <div class="col grow">
+               <a href="dutch_bros.html"><img src="img/dutchbros/DR_thumb.png" alt="project image"></a>
+               <div class="overlay">
+                  <div class="overlay-text">
+                     <h2>DutchRewards App</h2>
+                     <h4>Ux/Ui Designer & Branding</h4>
+                  </div>
+               </div> <!-- End of Overlay-->
+               <div class="thumbnail">
+                  <h2>DutchRewards App</h2>
+                  <h4>Ux/Ui Designer & Branding</h4>
+               </div> <!-- End of Thumbnail-->
+            </div> <!-- End of Project-->
+            
+            <div class="col grow">
+               <a href="beasts_heroes.html"><img src="img/bnh/BH_thumbDark.png" alt="project image"></a>
+               <div class="overlay">
+                  <div class="overlay-text">
+                     <h2>Beasts + Heroes</h2>
+                     <h4>Web Design & Web Development</h4>
+                  </div>
+               </div> <!-- End of Overlay-->
+               <div class="thumbnail">
+                  <h2>Beasts + Heroes</h2>
+                  <h4>Web Design & Web Development</h4>
+               </div> <!-- End of Thumbnail-->
+            </div> <!-- End of Project-->
+            
+         </div> <!-- End of GridWork  -->
+      </div> <!-- End of Work section  -->
 
       <div class="resume" id="resume">
          <div class="title">
             <img src="assets/titles/resumeTitle.png" alt=" Resume Title Section" target="_blank">
          </div>
 
-            <button type="button">
-               <a href="assets/michellealexaResume.pdf" class="btn-resume" target="_blank">Download</a>
-            </button>
+         <button type="button">
+            <a href="assets/michellealexaResume.pdf" class="btn-resume" target="_blank">Download</a>
+         </button>
 
          <div class="content-resume">
-            <p>I’m an aspiring Ux/Ui Designer and developer with a passion for clean design and code. Who’s willing and eager to learn! I’m a fast learner and will give my best effort on everything.</p>
+            <p>I’m an aspiring Ux/Ui Designer and developer with a passion for clean design and code. Who’s willing and
+               eager to learn! I’m a fast learner and will give my best effort on everything.</p>
             <p>Feel free to look at my resume and take a look around some of my work.</p>
          </div> <!-- End of Resume content info  -->
       </div> <!-- End of Resume section  -->
 
 
-			<footer>
-            <div class="social">
-               <a href="http://linkedin.com/in/michellealexa"><img src="assets/icons/003-linkedin.png" target="_blank" alt="Linked In Account Icon"></a>
-               <a href="https://www.behance.net/michellemalexa"><img src="assets/icons/004-behance.png" target="_blank" alt="Behance Account Icon"></a>
-               <a href="https://dribbble.com/michellealexa"><img src="assets/icons/002-dribble.png" target="_blank" alt="Dribbble Account Icon"></a>
-               <a href="https://www.instagram.com/malexa.dsgns"><img src="assets/icons/005-instagram.png" target="_blank" alt="Instagram Account Icon"></a>
-            </div> <!-- End of Social links  -->
+      <footer>
+         <div class="social">
+            <a href="http://linkedin.com/in/michellealexa"><img src="assets/icons/003-linkedin.png" target="_blank"
+                  alt="Linked In Account Icon"></a>
+            <a href="https://www.behance.net/michellemalexa"><img src="assets/icons/004-behance.png" target="_blank"
+                  alt="Behance Account Icon"></a>
+            <a href="https://dribbble.com/michellealexa"><img src="assets/icons/002-dribble.png" target="_blank"
+                  alt="Dribbble Account Icon"></a>
+            <a href="https://www.instagram.com/malexa.dsgns"><img src="assets/icons/005-instagram.png" target="_blank"
+                  alt="Instagram Account Icon"></a>
+         </div> <!-- End of Social links  -->
 
-            <p>&copy Michelle Alexa 2019</p>
-			</footer>
-      </div> <!-- End of wrapper  -->
-      
+         <p>&copy Michelle Alexa 2019</p>
+      </footer>
+   </div> <!-- End of wrapper  -->
 
-   </body>
+
+</body>
+
 </html>
