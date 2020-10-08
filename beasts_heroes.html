@@ -1,107 +1,119 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		 <!-- Meta tags -->
-       <meta charset="UTF-8">
-       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-       <meta name="author" content="Portfolio">
-       <meta name="description" content="Portfolio Website">
-       
-       <title>Portfolio | Beast + Heroes</title>
-      
-      <!-- Stylesheets -->
-      <link rel="stylesheet" type="text/css" href="css/main.css">
-      <link rel="stylesheet" type="text/css" href="css/mobile.css">
 
-      <!-- Fonts -->
-      <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,600,700,800|Raleway:300,400,500,600" rel="stylesheet">
+<head>
+   <!-- Meta tags -->
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="author" content="Portfolio">
+   <meta name="description" content="Portfolio Website">
 
-      
-	</head>
+   <title>Portfolio | Beast + Heroes</title>
 
-	<body>
-		<div class="wrapper">
-			<nav class="clearfix">
+   <!-- Stylesheets -->
+   <link rel="stylesheet" type="text/css" href="css/main.css">
+   <link rel="stylesheet" type="text/css" href="css/mobile.css">
 
-            <ul class="desktop">
-               
-               <a href="index.html"><img src="assets/mylogo.png" class="logo" alt="Michelle Alexa Logo"></a>
-
-                <li><a href="index.html">Home</a></li>
-                <!-- <li><a href="index.html#skills">Skills</a></li> -->
-                <li><a href="index.html#work">Projects</a></li>  
-                <li><a href="assets/michellealexaResume.pdf" target="_blank">Resume</a></li>  
-                <li><a href="about.html">About</a></li>
-                <li><a href="mailto:michellealexa.dsgns@gmail.com" class="email" target="_blank">Reach Out</a></li>
-                
-            </ul>
-
-            <div class="mobile">
-               <a href="index.html">
-                  <img src="assets/mylogo.png" class="logo" alt="Michelle Alexa Logo">
-               </a>
-               <label for="toggle">&#9776;</label>
-               <input type="checkbox" id="toggle" />
-                  <ul>
-                     <li><a href="index.html">Home</a></li>
-                     <!-- <li><a href="index.html#skills">Skills</a></li> -->
-                     <li><a href="index.html#work">Projects</a></li>  
-                     <li><a href="index.html#resume">Resume</a></li>  
-                     <li><a href="about.html">About</a></li>
-                     <li><a href="mailto:michellealexa.dsgns@gmail.com" class="email" target="_blank">Reach Out</a></li>
-                  </ul>
-            </div>
-                  
-			</nav>
+   <!-- Fonts -->
+   <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,600,700,800|Raleway:300,400,500,600"
+      rel="stylesheet">
 
 
-         <div class="beasts" id="beastsProject">
-           
-            <img src="img/bnh/bnh_logo_light.png" class="projectLogo" alt="logo of Beasts and Heroes Project">
-      
+</head>
 
-            <div class="projectInfo" id="projectInfo">  
-               <div class="description">
-                  <h2>Beasts + Heroes</h2>
-                  <h4>Web Design & Web Development</h4>
+<body>
+   <div class="wrapper">
+      <nav class="clearfix">
 
-                  <div class="needs">
-                     <p><span class="special">Client: </span></p>
-                        <p><a href="http://emortalsports.com" class="client">Emortal Sports Inc.</a></p><br>
-                     <p><span class="special">Goal: </span></p>
-                        <p>Create the look and feel of the website</p><br>
-                     <p><span class="special">Role: </span></p>
-                        <p>Front-End Developer and Ui Designer</p>
-                  </div> <!-- End of Beasts needs info  -->
+         <a href="index.html"><img src="assets/mylogo.png" class="logo" alt="Michelle Alexa Logo"></a>
+         <ul class="desktop">
+            <li><a href="index.html">Home</a></li>
+            <!-- <li><a href="index.html#skills">Skills</a></li> -->
+            <li><a href="index.html#work">Projects</a></li>
+            <li><a href="assets/michellealexaResume.pdf" target="_blank">Resume</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="mailto:michellealexa.dsgns@gmail.com" class="email" target="_blank">Reach Out</a></li>
 
-                  <div class="overview">
-                     <p>Beasts and Heroes is an upcoming Virtual Reality (VR) game for Seattle’s startup Emortal Sports.</p>
-                     <p>Collaborated with the game company Emortal Sports, Inc. to build and develop the game’s web presence, and document the experience of Beasts and Heroes.</p>
-                     <p>Was personally responsible of creating the visual design and HTML5/CSS3 templating for a virtual reality game website where people will be able to learn, discover and presence the world of BnH.</p>
-                     
-                     <button type="button">
-                        <a href="http://dtc-wsuv.org/projects/beasts-heroes/" class="btn-project" target="_blank">View Site</a>
-                        <a href="http://dtc-wsuv.org/projects/beasts-heroes/" class="btn-vid" target="_blank">Project Video</a>
-                     </button>
-                  </div> <!-- End of Beasts overview  -->
-               </div> <!-- End of Beasts project description  -->
-            </div> <!-- End of Beasts project info  -->
+         </ul>
 
-         </div> <!-- End of Beasts section  -->
+         <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&#10539;</a>
 
-            <footer>
-               <div class="social">
-                  <a href="http://linkedin.com/in/michellealexa"><img src="assets/icons/003-linkedin.png" alt="Linked In Account Icon"></a>
-                  <a href="https://www.behance.net/michellemalexa"><img src="assets/icons/004-behance.png" alt="Behance Account Icon"></a>
-                  <a href="https://dribbble.com/michellealexa"><img src="assets/icons/002-dribble.png" alt="Dribbble Account Icon"></a>
-                  <a href="https://www.instagram.com/malexa.dsgns"><img src="assets/icons/005-instagram.png" alt="Instagram Account Icon"></a>
-               </div> <!-- End of Social links  -->
-   
-               <p>&copy Michelle Alexa 2019</p>
-            </footer>
+            <a href="index.html">Home</a>
+            <a href="index.html#work">Projects</a>
+            <a href="assets/michellealexaResume.pdf" target="_blank">Resume</a>
+            <a href="about.html">About</a>
+            <a href="mailto:michellealexa.dsgns@gmail.com" class="email" target="_blank">Reach Out</a>
+         </div>
 
-         </div> <!-- End of wrapper  -->
-         
-        
-	</body>
+         <div id="main">
+            <button class="openbtn" onclick="openNav()">&#9776;</button>
+         </div>
+
+
+      </nav>
+
+
+      <div class="beasts" id="beastsProject">
+
+         <img src="img/bnh/bnh_logo_light.png" class="projectLogo" alt="logo of Beasts and Heroes Project">
+
+
+         <div class="projectInfo" id="projectInfo">
+            <div class="description">
+               <h2>Beasts + Heroes</h2>
+               <h4>Web Design & Web Development</h4>
+
+               <div class="needs">
+                  <p><span class="special">Client: </span></p>
+                  <p><a href="http://emortalsports.com" class="client">Emortal Sports Inc.</a></p><br>
+                  <p><span class="special">Goal: </span></p>
+                  <p>Create the look and feel of the website</p><br>
+                  <p><span class="special">Role: </span></p>
+                  <p>Front-End Developer and Ui Designer</p>
+               </div> <!-- End of Beasts needs info  -->
+
+               <div class="overview">
+                  <p>Beasts and Heroes is an upcoming Virtual Reality (VR) game for Seattle’s startup Emortal Sports.
+                  </p>
+                  <p>Collaborated with the game company Emortal Sports, Inc. to build and develop the game’s web
+                     presence, and document the experience of Beasts and Heroes.</p>
+                  <p>Was personally responsible of creating the visual design and HTML5/CSS3 templating for a virtual
+                     reality game website where people will be able to learn, discover and presence the world of BnH.
+                  </p>
+
+                  <button type="button">
+                     <a href="http://dtc-wsuv.org/projects/beasts-heroes/" class="btn-project" target="_blank">View
+                        Site</a>
+                     <a href="http://dtc-wsuv.org/projects/beasts-heroes/" class="btn-vid" target="_blank">Project
+                        Video</a>
+                  </button>
+               </div> <!-- End of Beasts overview  -->
+            </div> <!-- End of Beasts project description  -->
+         </div> <!-- End of Beasts project info  -->
+
+      </div> <!-- End of Beasts section  -->
+
+      <footer>
+         <div class="social">
+            <a href="http://linkedin.com/in/michellealexa"><img src="assets/icons/003-linkedin.png"
+                  alt="Linked In Account Icon"></a>
+            <a href="https://www.behance.net/michellemalexa"><img src="assets/icons/004-behance.png"
+                  alt="Behance Account Icon"></a>
+            <a href="https://dribbble.com/michellealexa"><img src="assets/icons/002-dribble.png"
+                  alt="Dribbble Account Icon"></a>
+            <a href="https://www.instagram.com/malexa.dsgns"><img src="assets/icons/005-instagram.png"
+                  alt="Instagram Account Icon"></a>
+         </div> <!-- End of Social links  -->
+
+         <p>&copy Michelle Alexa 2019</p>
+      </footer>
+
+   </div> <!-- End of wrapper  -->
+
+<!-- JS -->
+<script type="text/javascript" src="script.js"></script>
+
+</body>
+
 </html>

@@ -22,10 +22,8 @@
 		<div class="wrapper">
 			<nav class="clearfix">
 
+            <a href="index.html"><img src="assets/mylogo.png" class="logo" alt="Michelle Alexa Logo"></a>
             <ul class="desktop">
-               
-               <a href="index.html"><img src="assets/mylogo.png" class="logo" alt="Michelle Alexa Logo"></a>
-
                 <li><a href="index.html">Home</a></li>
                 <!-- <li><a href="index.html#skills">Skills</a></li> -->
                 <li><a href="index.html#work">Projects</a></li>  
@@ -35,21 +33,32 @@
 
             </ul>
 
-            <div class="mobile">
-               <a href="index.html">
-                  <img src="assets/mylogo.png" class="logo" alt="Michelle Alexa Logo">
-               </a>
+             <!-- <div class="mobile">
+               <img src="assets/mylogo.png" class="logo" alt="Michelle Alexa Logo">
                <label for="toggle">&#9776;</label>
                <input type="checkbox" id="toggle" />
-                  <ul>
-                     <li><a href="index.html">Home</a></li>
-                     <!-- <li><a href="index.html#skills">Skills</a></li> -->
-                     <li><a href="index.html#work">Projects</a></li>  
-                     <li><a href="index.html#resume">Resume</a></li>  
-                     <li><a href="about.html">About</a></li>
-                     <li><a href="mailto:michellealexa.dsgns@gmail.com" class="email" target="_blank">Reach Out</a></li>
-                  </ul>
-            </div>
+               <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#work">Projects</a></li>
+                  <li><a href="#resume">Resume</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="mailto:michellealexa.dsgns@gmail.com" class="email" target="_blank">Reach Out</a></li>
+               </ul>
+            </div> -->
+
+         <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&#10539;</a>
+
+            <a href="index.html">Home</a>
+            <a href="index.html#work">Projects</a>
+            <a href="assets/michellealexaResume.pdf" target="_blank">Resume</a>
+            <a href="about.html">About</a>
+            <a href="mailto:michellealexa.dsgns@gmail.com" class="email" target="_blank">Reach Out</a>
+         </div>
+
+         <div id="main">
+            <button class="openbtn" onclick="openNav()">&#9776;</button>
+         </div>
                   
 			</nav>
 
@@ -83,6 +92,11 @@
             <p>&copy Michelle Alexa 2019</p>
 			</footer>
 
-		</div> <!-- End of wrapper  -->
+      </div> <!-- End of wrapper  -->
+      
+
+      <!-- JS -->
+   <script type="text/javascript" src="script.js"></script>
+
 	</body>
 </html>

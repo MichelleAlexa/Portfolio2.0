@@ -25,8 +25,8 @@
    <div class="wrapper">
       <nav class="clearfix">
 
+         <a href="index.html"><img src="assets/mylogo.png" class="logo" alt="Michelle Alexa Logo"></a>
          <ul class="desktop">
-            <a href="index.html"><img src="assets/mylogo.png" class="logo" alt="Michelle Alexa Logo"></a>
 
             <li><a href="#">Home</a></li>
             <li><a href="#work">Projects</a></li>
@@ -35,17 +35,18 @@
             <li><a href="mailto:michellealexa.dsgns@gmail.com" class="email" target="_blank">Reach Out</a></li>
          </ul>
 
-         <div class="mobile">
-            <img src="assets/mylogo.png" class="logo" alt="Michelle Alexa Logo">
-            <label for="toggle">&#9776;</label>
-            <input type="checkbox" id="toggle" />
-            <ul>
-               <li><a href="#">Home</a></li>
-               <li><a href="#work">Projects</a></li>
-               <li><a href="#resume">Resume</a></li>
-               <li><a href="about.html">About</a></li>
-               <li><a href="mailto:michellealexa.dsgns@gmail.com" class="email" target="_blank">Reach Out</a></li>
-            </ul>
+         <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&#10539;</a>
+
+            <a href="index.html">Home</a>
+            <a href="index.html#work" onclick="closeToggle()">Projects</a>
+            <a href="assets/michellealexaResume.pdf" target="_blank">Resume</a>
+            <a href="about.html">About</a>
+            <a href="mailto:michellealexa.dsgns@gmail.com" class="email" target="_blank">Reach Out</a>
+         </div>
+
+         <div id="main">
+            <button class="openbtn" onclick="openNav()">&#9776;</button>
          </div>
 
       </nav>
@@ -145,7 +146,7 @@
                </div> <!-- End of Thumbnail-->
             </div>
 
-            
+
             <div class="col grow">
                <a href="dutch_bros.html"><img src="img/dutchbros/DR_thumb.png" alt="project image"></a>
                <div class="overlay">
@@ -159,7 +160,7 @@
                   <h4>Ux/Ui Designer & Branding</h4>
                </div> <!-- End of Thumbnail-->
             </div> <!-- End of Project-->
-            
+
             <div class="col grow">
                <a href="beasts_heroes.html"><img src="img/bnh/BH_thumbDark.png" alt="project image"></a>
                <div class="overlay">
@@ -173,7 +174,7 @@
                   <h4>Web Design & Web Development</h4>
                </div> <!-- End of Thumbnail-->
             </div> <!-- End of Project-->
-            
+
          </div> <!-- End of GridWork  -->
       </div> <!-- End of Work section  -->
 
@@ -209,6 +210,9 @@
          <p>&copy Michelle Alexa 2019</p>
       </footer>
    </div> <!-- End of wrapper  -->
+
+   <!-- JS -->
+   <script type="text/javascript" src="script.js"></script>
 
 
 </body>
