@@ -550,6 +550,7 @@
    .about {
       text-align: left;
       height: 1100px;
+      margin-top: 150px;
    }
 
    .about .title {
@@ -559,7 +560,7 @@
    .content-about {
       width: 80%;
       left: 50px;
-      top: 600px;
+      top: 700px;
    }
 
    .content-about p {
@@ -725,7 +726,7 @@
    }
 
    .content-about {
-      top: 380px;
+      top: 450px;
       left: 40px;
    }
 
@@ -811,15 +812,19 @@
    .about {
       height: 800px;
       width: 100%;
+      margin-top: 130px;
+   }
+
+   .about .title img {
+      width: 85%;
    }
 
    .me {
-      top: 130px;
       left: 10%;
    }
 
    .content-about {
-      top: 400px;
+      top: 420px;
       left: 35px;
    }
 
@@ -881,7 +886,6 @@
 
    .about {
       height: 840px;
-      margin-top: 70px;
    }
 
    .content-about {
