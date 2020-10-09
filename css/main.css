@@ -330,6 +330,9 @@ nav a:hover {
    padding: 16px;
 }
 
+.sidebar a:visited {
+   color: #ffffff;
+}
 
 
 /*-----header-----*/
