@@ -212,7 +212,7 @@ label {
 .logo {
    width: 90px;
    top: 10px;
-   left: 30px;
+   /* left: 30px; */
    position: absolute;
    overflow: hidden;
 }
