@@ -664,7 +664,7 @@ header ul li {
 }
 
 .content-resume p {
-   text-align: justify;
+   text-align: left;
    float: right;
    font-size: 18px;
    color: #525962;
